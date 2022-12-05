@@ -1,0 +1,33 @@
+<html>
+   <head>
+
+      <style>
+      p.thick {
+      font-weight: bold;
+      }
+      div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        align-content: center;
+        margin-left: 500px;
+        margin-top: 200px
+      }
+      </style>
+      </head>
+      <body>
+         <div>
+         <form action = "http://localhost:5000/frontend" method = "POST" >
+             <p class= thick>Enter Range of Roll Number:<input type = "text"  name="range" /></p>
+             <p><input type = "submit"  name="submit_button" value="Generate required Transcripts" /></p>
+             <p><input type = "submit"  name="submit_button" value="Generate all Transcripts" /></p>
+             <p>Include Seal<input type="checkbox"></p>
+             <p>Include Sign<input type="checkbox"></p>
+         </form>
+         </div>
+    </body>
+   </div>
+   
+</html>
+
